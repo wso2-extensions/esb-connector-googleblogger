@@ -18,26 +18,22 @@
 
 package org.wso2.connector.integration.bloggerV3;
 
-import java.lang.System;
-import java.util.Properties;
-
 import org.apache.axis2.context.ConfigurationContext;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.wso2.carbon.automation.api.clients.proxy.admin.ProxyServiceAdminClient;
 import org.wso2.carbon.automation.api.clients.utils.AuthenticateStub;
 import org.wso2.carbon.automation.utils.axis2client.ConfigurationContextProvider;
-import org.wso2.connector.integration.bloggerV3.ConnectorIntegrationUtil;
 import org.wso2.carbon.esb.ESBIntegrationTest;
 import org.wso2.carbon.mediation.library.stub.MediationLibraryAdminServiceStub;
 import org.wso2.carbon.mediation.library.stub.upload.MediationLibraryUploaderStub;
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.net.URL;
 
 import javax.activation.DataHandler;
+import java.net.URL;
+import java.util.Properties;
 
 public class BloggerConnectorIntegrationTest extends ESBIntegrationTest {
 
@@ -51,7 +47,7 @@ public class BloggerConnectorIntegrationTest extends ESBIntegrationTest {
 
     private String repoLocation = null;
 
-    private String bloggerConnectorFileName = CONNECTOR_NAME + "-connector-1.0.0.zip";
+    private String bloggerConnectorFileName = CONNECTOR_NAME + "-connector-1.0.1-SNAPSHOT.zip";
 
     private Properties bloggerConnectorProperties = null;
 
