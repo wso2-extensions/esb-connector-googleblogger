@@ -4,7 +4,7 @@
     "category": "Storage and Content Management",
     "documentationUrl": "https://docs.wso2.org/display/ESBCONNECTORS/Blogger+API+v3+Connector",
     "description": "The Blogger API v3 connector allows you to connect to Google Blogger, a free weblog publishing tool from Google, for sharing text, photos and video. The connector uses the Blogger API v3 to connect to Google Blogger to retrieve information and manipulate Blogs, Posts and Comments. It uses the RESTfull API calling style to invoke the methods exposed by the Blogger API.",
-    "status": "Unsupported",
+    "status": "Active",
     "labels": [
         "connector"
     ],
